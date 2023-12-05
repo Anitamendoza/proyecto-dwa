@@ -8,14 +8,13 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/users/login/login.component';
 import { CreateUserComponent } from './pages/users/create-user/create-user.component';
-import { PrestamosComponent } from './prestamos/prestamos.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    PrestamosComponent,
+   
     
   ],
   imports: [
