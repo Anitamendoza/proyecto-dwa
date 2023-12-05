@@ -8,12 +8,18 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/users/login/login.component';
 import { CreateUserComponent } from './pages/users/create-user/create-user.component';
+import { CrearPeliculasComponent } from './pages/peliculas/crear-peliculas/crear-peliculas.component';
+import { EditarPeliculasComponent } from './pages/peliculas/editar-peliculas/editar-peliculas.component';
+import { ListarPeliculasComponent } from './pages/peliculas/listar-peliculas/listar-peliculas.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    CrearPeliculasComponent,
+    EditarPeliculasComponent,
+    ListarPeliculasComponent,
    
     
   ],
