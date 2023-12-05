@@ -11,6 +11,7 @@ import { CreateUserComponent } from './pages/users/create-user/create-user.compo
 import { CrearPeliculasComponent } from './pages/peliculas/crear-peliculas/crear-peliculas.component';
 import { EditarPeliculasComponent } from './pages/peliculas/editar-peliculas/editar-peliculas.component';
 import { ListarPeliculasComponent } from './pages/peliculas/listar-peliculas/listar-peliculas.component';
+import { NavbarComponent } from './pages/navbar/navbar.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ListarPeliculasComponent } from './pages/peliculas/listar-peliculas/lis
     CrearPeliculasComponent,
     EditarPeliculasComponent,
     ListarPeliculasComponent,
+    NavbarComponent,
    
     
   ],
